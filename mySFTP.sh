@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Write SFTP command with << EOF
 
 if [ $# -ne 4 ]
 then

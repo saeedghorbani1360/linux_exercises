@@ -1,4 +1,6 @@
 #!/bin/bash
+# Write a program that reads, ping one by one from within a file containing the list of destination IPs, and saves the result in a log file on the same day with the hostname of that machine.
+
 if [ $# -ne 1 ]
 then
         echo "Enter file containing IPs."

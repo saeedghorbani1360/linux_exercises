@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Write a program that has the IP of a server and its USER/PASS in front of the script name and if it is pingable, send its /etc/passwd file to /home/user path of that server, otherwise a message is displayed that the server is not accessible.
 if [ $# -ne 3 ]
 then
 	echo "Wrong number of arguments. => ./myscript3.sh ip user pass"

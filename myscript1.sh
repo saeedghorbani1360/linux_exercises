@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Write a program that takes a number from input, compares it to 10, and return a message for each of 3 modes (larger, equal and smaller).
 while [ -z $num ]
 do
 	read -p "Enter a number (or 'quit' to Exit): " num

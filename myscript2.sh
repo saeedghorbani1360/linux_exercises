@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#  Write a program that takes 20 number from input, compares them, and states which number is the largest and smallest.
 greatest=0
 smallest=0
 
